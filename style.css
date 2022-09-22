@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box; /* si padding */
+    margin: 0px
+}
+
+
+
+.pagina-carosello {
+display: none;
+justify-content: space-evenly;
+}
+
+.pagina-carosello img {
+    width: 25%;
+    object-fit: cover;
+}
+
+.active {
+    display: flex;
+}
